@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Bootstrap Example</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+
+      <!-- Custom styles for this template -->
+      <link href="css/navbar-fixed-top.css" rel="stylesheet">
+      <link href="css/signin.css" rel="stylesheet">
+   </head>
+   <body>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+         <div class="container">
+            <div class="navbar-header">              
+               <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-ok-circle"></span>KENALAN</a>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+               <ul class="nav navbar-nav">
+                  
+            </div><!--/.nav-collapse -->
+         </div>
+      </nav>
+
+      <div class="container">
+         <div class="jumbotron">
+            <div class="well" id="masterC" style="display:contents">
+               <div class="row">
+                  <div class="table-responsive">
+                     <a class="btn btn-primary" href="#btnAddKenalan" role="button"><span class="glyphicon glyphicon-plus"></a>
+                        <table id="maintable" class="table table-striped">
+                           <thead>
+                           </thead>
+                           <tbody>
+                           </tbody>
+                        </table>
+                  </div>
+               </div>
+            </div>
+            <div clas="well" id="divFrmAddKenalan" style="display:contents">
+               <div class="row">
+                  <div class="col-sm-6">
+                     <form id="frmAddKenalan" class="form">
+                        <table>
+                           <tr><td> <input type="text" placeholder="First Name?" id="firstName" /></td></tr>
+                           <tr><td> <input type="text" placeholder="Last Name?" id="lastName" /></td></tr>
+                           <tr><td> <input type="text" placeholder="Nick Name?" id="nickName" /></td></tr>
+                           <tr><td> <input type="text" placeholder="Phone Num?" id="phoneNo" /></td></tr>
+                           <tr><td> <input type="text" placeholder="Email?" id="contactEmail" /></td></tr>
+                        </table>
+                        
+                        <button class="btn btn-lg btn-success " type="submit">Save Contact</button>
+                        <button class="btn btn-lg btn-info " type="reset">Reset</button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      
+      <nav class="navbar navbar-default navbar-fixed-bottom">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">   
+                  &copy;2022-AZIM HARUN S59784
+               </div>
+            </div>    
+         </div>
+      </nav>
+         
+      <script src="js/jquery-3.2.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/signals.min.js"></script>
+      <script src="js/hasher.min.js"></script>
+      <script src="js/crossroads.min.js"></script>
+      <script src="js/index.js"></script>
+   </body>
+</html>
